@@ -2,9 +2,6 @@ from datetime import datetime
 import re
 
 
-# ==========================
-# CLASE CLIENTE
-# ==========================
 class Cliente:
     def __init__(self, id_cliente, nombre, email, direccion, telefono):
         self.id_cliente = id_cliente
@@ -17,9 +14,6 @@ class Cliente:
         return f"{self.id_cliente} - {self.nombre}"
 
 
-# ==========================
-# CLASE SERVICIO
-# ==========================
 class Servicio:
     def __init__(self, id_servicio, nombre, precio):
         self.id_servicio = id_servicio
@@ -222,3 +216,4 @@ class SistemaTechSolutions:
 if __name__ == "__main__":
     sistema = SistemaTechSolutions()
     sistema.menu()
+
