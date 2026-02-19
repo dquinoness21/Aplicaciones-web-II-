@@ -24,9 +24,6 @@ class Servicio:
         return f"{self.id_servicio}. {self.nombre} - ${self.precio}"
 
 
-# ==========================
-# MOTOR DE NOTIFICACIONES
-# ==========================
 class Notificador:
     @staticmethod
     def enviar_email(cliente, total):
@@ -216,4 +213,5 @@ class SistemaTechSolutions:
 if __name__ == "__main__":
     sistema = SistemaTechSolutions()
     sistema.menu()
+
 
